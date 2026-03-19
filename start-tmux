@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sleep 0.5
+tmux new-session -A -s thisme \; send-keys 'tdl c' Enter
